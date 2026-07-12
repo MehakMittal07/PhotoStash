@@ -12,6 +12,7 @@ import {
     Stack,
     Text,
 } from '@chakra-ui/react';
+import customLogo from './assets/download.png';
 import {Formik, Form, useField} from "formik";
 import * as Yup from 'yup';
 import {useAuth} from "../context/AuthContext.jsx";
@@ -115,12 +116,7 @@ const Login = () => {
         <Stack minH={'100vh'} direction={{base: 'column', md: 'row'}}>
             <Flex p={8} flex={1} alignItems={'center'} justifyContent={'center'}>
                 <Stack spacing={4} w={'full'} maxW={'md'}>
-                    <Image
-                        src={"https://user-images.githubusercontent.com/40702606/210880158-e7d698c2-b19a-4057-b415-09f48a746753.png"}
-                        boxSize={"200px"}
-                        alt={"Amigoscode Logo"}
-                        alignSelf={"center"}
-                    />
+                   <Image src={customLogo} alt="Photostack Logo" />
                     <Heading fontSize={'2xl'} mb={15}>Sign in to your account</Heading>
                     <LoginForm/>
                     <Link color={"blue.500"} href={"/signup"}>
