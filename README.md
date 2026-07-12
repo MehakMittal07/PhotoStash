@@ -1,30 +1,45 @@
-# Full Stack Professional
+PhotoStack 📸
+Photostack is a full-stack, production-grade web application designed for seamless media management and user engagement. Built from the ground up using a modern split-architecture, the platform pairs a lightning-fast React frontend with a secure, enterprise-ready Spring Boot backend.
 
-Enrol [here](https://amigoscode.com/courses/full-stack-professional) with over *50 Hours* of Content with Plenty of Exercises
+Whether it is handling secure user registration, managing relational data structures, or processing assets, Photostack serves as a comprehensive showcase of modern cloud-native web development practices.
 
-![Curriculum](https://user-images.githubusercontent.com/40702606/228275106-73076517-ff4f-40e0-a993-4d05d5a2ea77.png)
+🚀 Technical Stack Breakdown
+This project utilizes an industry-standard production stack spanning robust backend architecture, relational database management, containerization, and modern frontend design.
 
-Are you ready to level up your coding skills and become a full stack professional? Our new 50+ hours course is designed to equip you with the latest tools and techniques to build impressive, full stack applications that will impress the users and your team.
+☕ Backend Architecture (Java & Spring Boot 3)
+Spring Boot 3: The core framework powering the backend REST API, utilizing dependency injection and embedded Tomcat servers for rapid deployment.
 
-Over the next three months you will learn how to craft stunning, responsive front-end interfaces that flawlessly communicate with robust, scalable back-end servers, all with the use of industry-standard technologies such as:
+HTTP & REST API Development: Robust, scalable endpoint architectures adhering strictly to REST principles for smooth client-server communication.
 
-- ✅ Spring Boot 3
-- ✅ HTTP & API development
-- ✅ Developer tools for maximum productivity
-- ✅ Robust error handling techniques
-- ✅ Databases & PostgreSQL
-- ✅ Spring Data JPA
-- ✅ Flyway for seamless database migrations
-- ✅ JDBC for efficient database communication
-- ✅ Testing strategies for robust, reliable code
-- ✅ Docker for containerization and deployment
-- ✅ AWS for cloud-based hosting and scaling
-- ✅ DevOps best practices for agile, collaborative development
-- ✅ JavaScript and React for front-end development
-- ✅ Spring Security 6 for secure, authenticated applications
-- ✅ Login/Registration systems for user management
-- ✅ TypeScript for type-safe, scalable code
-- ✅ Angular for powerful, responsive front-end interfaces
+Developer Tools: Leverages advanced logging, debugging, and IDE integration configurations to maintain high developer velocity.
 
-🎁 Bonus 6-Month IntelliJ IDEA Ultimate license worth 117.83$
+Robust Error Handling: Global exception handling mechanisms ensuring uniform, predictable API error responses.
 
+Spring Security 6: Protects application endpoints with robust authentication and authorization mechanisms.
+
+Login/Registration System: Secure, production-ready user management workflow featuring token-based authentication and secure password hashing.
+
+💾 Data Persistence & Management
+PostgreSQL: A powerful, open-source object-relational database system chosen for relational data scaling and stability.
+
+Spring Data JPA: Simplifies data access layers through object-relational mapping (ORM) abstractions built over Hibernate.
+
+Flyway: Manages seamless, version-controlled database migrations, tracking schema evolutions reliably.
+
+JDBC: Employed underneath the data layer for highly efficient, direct database communication and querying.
+
+🖥️ Modern Frontend Frameworks
+JavaScript & React: Utilized to build beautiful, highly modular, and lightning-fast user interfaces.
+
+Vite: Next-generation build tool supplying instant server starts and highly optimized production builds (dist).
+
+TypeScript: (Optional Integration) Standard type-safe layout for building highly scalable, bug-resistant frontend code.
+
+Angular: (Alternative Client) Integrated framework architecture capable of handling powerful enterprise-grade responsive layouts.
+
+📦 DevOps, Containerization & Cloud Deployment
+Docker: Simplifies environment management by containerizing both the applications and the database into lightweight, portable containers.
+
+AWS (Amazon Web Services): Leveraged for secure cloud hosting, storage (S3), and scalable deployment infrastructures.
+
+DevOps Best Practices: Built out with active continuous integration and continuous deployment pipelines (CI/CD) via AWS Amplify to enable agile, high-frequency updates.
